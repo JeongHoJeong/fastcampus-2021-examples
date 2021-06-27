@@ -11,3 +11,13 @@ npm run lerna bootstrap
 
 - 모든 프로젝트는 node 14.16.1 버전과 npm 6.14.10 버전으로 테스트했습니다.
 - `packages` 밑의 각 디렉토리에 프로젝트가 모여 있습니다. 각 레포지토리에 들어가 실행 방법을 확인해 보세요!
+
+## 프로젝트 목록
+- [GitHub 관리 CLI 만들기](./packages/cli)
+- [Koa, WebSocket으로 라이브 인터랙션 만들기](./packages/live-interaction)
+- [이미지 리사이징](./packages/image-resizer)
+
+## 예시 코드 목록
+- [Node.js stream](./packages/streams)
+- [리팩토링](./packages/refactoring)
+- [express 서버 예시](./packages/express-example)
