@@ -1,0 +1,6 @@
+html
+    body
+        h1 Users
+        each user, id in users
+            div
+                a(href=`/users/${id}`) #{user.nickname}

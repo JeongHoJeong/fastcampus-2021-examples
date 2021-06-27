@@ -1,0 +1,15 @@
+html
+    head
+        link(rel="stylesheet" href="/public/index.css")
+    body
+        h1 User profile
+        h2 Nickname
+        div= nickname
+
+        h2 Profile
+        img(src=profileImageURL).profileImage
+        form(action=`/users/${userId}/profile` method="post" enctype="multipart/form-data")
+            input(type="file" name="profile")
+            button Upload Profile Picture
+
+        a(href="/users") Back to users
